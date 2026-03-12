@@ -22,7 +22,7 @@ const career = [
     period: "03/2015 – 03/2018",
     role: "Senior Consultant / Manager",
     company: "EY Advisory",
-    focus: "IT Strategy · Governance, Risk & Compliance · Project Management · IT Delivery · Process Mining",
+    focus: "IT Strategy · Governance, Risk & Compliance · Project Management · IT Delivery",
   },
   {
     period: "06/2012 – 03/2015",
@@ -72,7 +72,7 @@ export default function About() {
             Strategie trifft Umsetzungsstärke
           </h2>
           <p className="text-base text-[#6B6B6B] leading-relaxed max-w-2xl">
-            Als Senior Projektmanager mit über 10 Jahren Erfahrung in der Leitung komplexer IKT-Projekte
+            Als Senior Projektmanager mit über 10 Jahren Erfahrung in der Leitung komplexer IT-Projekte
             begleite ich Unternehmen und Behörden bei der Ablöse und Einführung von Softwarelösungen
             sowie IT-Infrastrukturen. Meine Stärke: technisches Verständnis für Architektur und Entwicklung
             mit der Fähigkeit, Fachbereichs-, Governance- und Risikothemen nahtlos einzubinden.

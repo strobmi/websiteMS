@@ -16,7 +16,7 @@ const services = [
     icon: Target,
     title: "Projekt- & Programm-Management",
     description:
-      "Vollständige Projektverantwortung – von der strategischen Planung über internationale Lieferantensteuerung bis zur Betriebsüberführung. PRINCE2, IPMA, PMI.",
+      "Vollständige Projektverantwortung – von der strategischen Planung über internationale Lieferantensteuerung bis zum Rollout. (PRINCE2 Practitioner)",
   },
   {
     icon: GitMerge,
@@ -34,7 +34,7 @@ const services = [
     icon: Users,
     title: "Change Management & Stakeholder",
     description:
-      "Proaktive Einbindung aller Stakeholder-Ebenen: Management, Fachbereiche, externe Lieferanten. Workshops, Kommunikationsplanung und Ramp-up-Begleitung.",
+      "Proaktive Einbindung aller Stakeholder-Ebenen: Management, Fachbereiche, externe Lieferanten. Workshops, Kommunikationsplanung und Change-Begleitung.",
   },
   {
     icon: Shield,

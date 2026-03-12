@@ -54,7 +54,7 @@ export default function Hero() {
           >
             <div className="inline-flex items-center gap-2 text-xs xl:text-sm font-semibold tracking-widest uppercase text-[#C4622D] mb-5">
               <span className="w-6 h-px bg-[#C4622D]" />
-              Senior IT-Berater & Projektmanager
+              IT-Berater & Umsetzer
             </div>
 
             <h1 className="text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold text-[#1C1C1C] leading-[1.05] mb-5">
@@ -66,7 +66,7 @@ export default function Hero() {
             </p>
 
             <p className="text-base xl:text-lg text-[#6B6B6B] leading-relaxed mb-8 max-w-md xl:max-w-lg">
-              Als Senior Projektmanager mit über 10 Jahren Erfahrung begleite ich Unternehmen
+              Als Projekt & Programmmanager mit über 10 Jahren Erfahrung begleite ich Unternehmen
               und Behörden bei der digitalen Transformation – von der strategischen Planung
               bis zur erfolgreichen Betriebsüberführung.
             </p>

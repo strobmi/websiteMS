@@ -5,7 +5,7 @@ import { useInView } from "framer-motion";
 import { useRef } from "react";
 
 const stats = [
-  { value: "10+", label: "Jahre Erfahrung", sub: "in IKT & Digitalisierung" },
+  { value: "15+", label: "Jahre Erfahrung", sub: "in IT & Digitalisierungsprojekten" },
   { value: "~15 Mio €", label: "Budgetverantwortung", sub: "in einem Einzelprojekt" },
   { value: "40+", label: "Personen geführt", sub: "in internationalen Teams" },
   { value: "6", label: "Länder", sub: "AT, DE, PL, IN, UK, NL" },

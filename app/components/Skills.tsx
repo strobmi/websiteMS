@@ -6,11 +6,11 @@ import { useRef } from "react";
 const skillGroups = [
   {
     category: "Projekt- & Programm-Management",
-    skills: ["PRINCE2 v7", "IPMA", "PMI", "Agile / Scrum", "Kanban", "Waterfall", "Hybrid PM"],
+    skills: ["PRINCE2 Practitioner", "Hybride Modelle", "Agile / Waterfall", "SAFe", "SCRUM", "Kanban",],
   },
   {
     category: "IT Transformation & Strategy",
-    skills: ["IT Strategy & Delivery", "Business/IT Alignment", "Enterprise Architektur", "Make or Buy", "COTS Integration", "Cloud Native", "Legacy Modernisierung"],
+    skills: ["IT Strategy & Delivery", "Business/IT Alignment", "Enterprise Architektur", "Make or Buy", "COTS Integration", "Cloud Native (Kubernetes)", "Legacy Modernisierung"],
   },
   {
     category: "Change & Stakeholder Management",
@@ -18,7 +18,7 @@ const skillGroups = [
   },
   {
     category: "Business Analyse & Prozesse",
-    skills: ["Business Analyse", "Requirements Engineering", "User Story Backlog", "Fit/Gap Analyse", "Prozessoptimierung", "Process Mining", "E2E Prozesse"],
+    skills: ["Business Analyse", "Requirements Engineering", "User Story Backlog", "Fit/Gap Analyse", "Prozessoptimierung", "E2E Prozesse"],
   },
   {
     category: "Governance, Risk & Compliance",
@@ -26,7 +26,7 @@ const skillGroups = [
   },
   {
     category: "Technologie & Tools",
-    skills: ["Guidewire (PolicyCenter, ClaimCenter)", "msg.InsuranceSuite", "INSIS Fadata", "Hyperion Financial Management", "OpenShift", "CI/CD", "ArgoCD", "IBM Cloud", "Blockchain", "AI Essentials"],
+    skills: ["Guidewire (PolicyCenter, ClaimCenter)", "msg.InsuranceSuite", "INSIS Fadata", "Hyperion Financial Management", "Cloud (IBM, Azure, AWS)", "AI (Anthropic, OpenAI)", ],
   },
 ];
 
