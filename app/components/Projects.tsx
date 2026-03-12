@@ -31,7 +31,7 @@ const projects = [
     title: "Einführung Insurance Core Platform",
     summary:
       "Kernsystemfusionierung und Ablöse mehrerer Legacy-Systeme. Workstream Leader über Pre-Inception, Pilot, Angebots- und Implementierungsphase (Guidewire PolicyCenter & ClaimCenter → msg.InsuranceSuite). 50+ Workshops mit diversen Stakeholdern.",
-    tags: ["Guidewire", "msg.InsuranceSuite", "P&C", "KFZ", "Scrum"],
+    tags: ["Guidewire Claims & PolicyCenter", "msg.InsuranceSuite", "P&C Insurance", "Fit/Gap Analysen", "PoC Implementierung", "Change Management"],
     quote: {
       text: "Mit seiner Expertise und Fähigkeit, komplexe Anforderungen in innovative Lösungen zu übersetzen, trug er entscheidend zur erfolgreichen Neuausrichtung der UNIQA Insurance Platform bei.",
       name: "Alois Dragovits",
@@ -47,8 +47,8 @@ const projects = [
     budget: "3 Mio. EUR",
     title: "Guidewire ClaimCenter Upgrade v7 → v9",
     summary:
-      "Projektmanager für ein virtuelles Delivery-Team (10–15 FTE, 3 Länder). AXA zählte zu den weltweit ersten Kunden mit ClaimCenter v9. Defect Management, UAT und Performance Testing.",
-    tags: ["Guidewire ClaimCenter", "Virtuelles Team", "DE/PL/IN/UK", "PM"],
+      "Projektmanager für ein virtuelles, international verteiltes Delivery-Team (10–15 FTE, Standorte in DE/PL/IN/UK). AXA zählte zu den weltweit ersten Kunden mit ClaimCenter v9. Verantwortlich für Defect Management, UAT-Koordination und Performance Testing bis zum erfolgreichen Go-live.",
+    tags: ["Guidewire ClaimCenter", "Virtuelles Team", "DE/PL/IN/UK", "Delivery Management", "FOK Project"],
     quote: {
       text: "Michael hat sich rasch als kompetenter und verlässlicher Ansprechpartner für uns etabliert – sowohl in technischer Hinsicht als auch im Projektmanagement. Durch seine klare Kommunikation trug er maßgeblich zum positiven Projektabschluss bei.",
       name: "Eric Eisenbach",
@@ -56,7 +56,7 @@ const projects = [
     },
     featured: true,
   },
-  {
+  /*{
     client: "Zurich Versicherung AT",
     short: "Zurich · Versicherung",
     volume: "Prämienvolumen >600 Mio. EUR",
@@ -87,7 +87,7 @@ const projects = [
       "Testmanager und sukzessive Übernahme von Prozessoptimierung und Governance. Einführung agiler Entwicklungsmethoden inkl. CI/CD-Pipeline, Etablierung von IT-Prozessen nach ITIL.",
     tags: ["ITIL", "CI/CD", "Agile", "Asset Management", "SEPA"],
     featured: false,
-  },
+  },*/
 ];
 
 function ProjectCard({ p, i, inView }: { p: typeof projects[0]; i: number; inView: boolean }) {
