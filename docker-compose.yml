@@ -10,3 +10,14 @@ services:
       - "traefik.http.routers.web.tls.certresolver=letsencrypt"
       - "traefik.http.services.web.loadbalancer.server.url=http://localhost:3000"
     restart: unless-stopped
+
+  robots:
+    image: nginx:alpine
+    volumes:
+      - ./robots.txt:/usr/share/nginx/html/robots.txt:ro
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.robots.rule=(Host(`ms-consulting.at`) || Host(`www.ms-consulting.at`)) && Path(`/robots.txt`)"
+      - "traefik.http.routers.robots.entrypoints=websecure"
+      - "traefik.http.routers.robots.tls.certresolver=letsencrypt"
+    restart: unless-stopped

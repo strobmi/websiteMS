@@ -2,7 +2,7 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Mail, Phone, MapPin, ArrowRight, Linkedin } from "lucide-react";
+import { Mail, MapPin, ArrowRight } from "lucide-react";
 import Link from "next/link";
 
 export default function Contact() {
@@ -70,16 +70,22 @@ export default function Contact() {
               </a>
 
               <a
-                href="tel:+436641606791"
+                href="https://www.linkedin.com/in/michaelstrobl88/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-start gap-4 group"
               >
                 <div className="w-9 h-9 bg-[#C4622D]/20 rounded-sm flex items-center justify-center shrink-0 group-hover:bg-[#C4622D]/30 transition-colors duration-200">
-                  <Phone size={16} className="text-[#C4622D]" />
+                  <svg width={16} height={16} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="text-[#C4622D]">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                    <rect width="4" height="12" x="2" y="9" />
+                    <circle cx="4" cy="4" r="2" />
+                  </svg>
                 </div>
                 <div>
-                  <div className="text-xs text-white/40 mb-0.5">Telefon</div>
+                  <div className="text-xs text-white/40 mb-0.5">LinkedIn</div>
                   <div className="text-sm font-semibold text-white group-hover:text-[#C4622D] transition-colors duration-200">
-                    +43 664 160 67 91
+                    Michael Strobl
                   </div>
                 </div>
               </a>

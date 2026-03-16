@@ -51,15 +51,6 @@ export default function Impressum() {
                   office@ms-consulting.at
                 </a>
               </p>
-              <p>
-                Telefon:{" "}
-                <a
-                  href="tel:+436641606791"
-                  className="text-[#C4622D] hover:underline"
-                >
-                  +43 664 160 67 91
-                </a>
-              </p>
             </div>
           </section>
 
