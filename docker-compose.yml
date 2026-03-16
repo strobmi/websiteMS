@@ -27,7 +27,7 @@ services:
       - ./robots.txt:/usr/share/nginx/html/robots.txt:ro
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.robots.rule=(Host(`ms-consulting.at`) || Host(`www.ms-consulting.at`)) && PathPrefix(`/robots.txt`)"
+      - "traefik.http.routers.robots.rule=(Host(`ms-consulting.at`) || Host(`www.ms-consulting.at`)) && Path(`/robots.txt`)"
       - "traefik.http.routers.robots.priority=1000"
       - "traefik.http.routers.robots.entrypoints=websecure"
       - "traefik.http.routers.robots.tls.certresolver=letsencrypt"
