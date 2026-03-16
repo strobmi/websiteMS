@@ -15,9 +15,13 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://ms-consulting.at"),
   title: "Michael Strobl – Digital denken. Wandel lenken.",
   description:
     "Senior IT-Berater & Projektmanager für digitale Transformation im Finanz- und Versicherungsbereich. 10+ Jahre Erfahrung bei BMF, UNIQA, AXA, Zurich und weiteren.",
+  alternates: {
+    canonical: "https://ms-consulting.at",
+  },
   icons: {
     icon: "/favicon.svg",
   },

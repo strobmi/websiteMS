@@ -5,10 +5,20 @@ services:
       - "127.0.0.1:3000:3000"
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.web.rule=Host(`ms-consulting.at`) || Host(`www.ms-consulting.at`)"
+      # Hauptrouter: nur non-www
+      - "traefik.http.routers.web.rule=Host(`ms-consulting.at`)"
       - "traefik.http.routers.web.entrypoints=websecure"
       - "traefik.http.routers.web.tls.certresolver=letsencrypt"
       - "traefik.http.services.web.loadbalancer.server.url=http://localhost:3000"
+      # www → non-www Redirect
+      - "traefik.http.middlewares.www-redirect.redirectregex.regex=^https://www\\.ms-consulting\\.at(.*)"
+      - "traefik.http.middlewares.www-redirect.redirectregex.replacement=https://ms-consulting.at$${1}"
+      - "traefik.http.middlewares.www-redirect.redirectregex.permanent=true"
+      - "traefik.http.routers.web-www.rule=Host(`www.ms-consulting.at`)"
+      - "traefik.http.routers.web-www.entrypoints=websecure"
+      - "traefik.http.routers.web-www.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.web-www.middlewares=www-redirect"
+      - "traefik.http.routers.web-www.service=web"
     restart: unless-stopped
 
   robots:
