@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     canonical: "https://ms-consulting.at",
   },
   icons: {
-    icon: "/favicon.svg",
+    icon: "/icon.svg",
   },
 };
 
